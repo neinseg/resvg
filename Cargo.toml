@@ -14,7 +14,7 @@ members = ["c-api", "svgfilters", "usvg"]
 
 [[bin]]
 name = "resvg"
-required-features = ["filter", "text", "system-fonts", "memmap-fonts"]
+required-features = ["filter"]
 
 [dependencies]
 gif = "0.11"

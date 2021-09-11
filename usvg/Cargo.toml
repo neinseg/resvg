@@ -15,7 +15,7 @@ workspace = ".."
 
 [[bin]]
 name = "usvg"
-required-features = ["filter", "text", "system-fonts", "memmap-fonts", "export"]
+required-features = ["filter", "export"]
 
 [dependencies]
 base64 = "0.13" # for embedded images
